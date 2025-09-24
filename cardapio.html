@@ -165,20 +165,5 @@
         <p>&copy; 2025 Sabor & Arte. Todos os direitos reservados.</p>
     </footer>
 
-    <script>
-        function toggleView() {
-            document.body.classList.toggle('table-view');
-            updateButtonText();
-        }
-
-        function updateButtonText() {
-            const isTableView = document.body.classList.contains('table-view');
-            document.querySelector('.card-view-text').style.display = isTableView ? 'inline' : 'none';
-            document.querySelector('.table-view-text').style.display = isTableView ? 'none' : 'inline';
-        }
-
-        // Inicializar o texto do botão
-        updateButtonText();
-    </script>
 </body>
 </html>
